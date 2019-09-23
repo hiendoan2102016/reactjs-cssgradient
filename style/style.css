@@ -1,0 +1,147 @@
+/* import { Form, Input } from 'reactstrap'; */
+
+.color {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 50px 200px;
+    top: 10%;
+    left: 60%;
+    border-radius: 2px solid rgb(54, 52, 52);
+}
+
+.ChromePicker {
+    padding-top: 20px;
+}
+
+.input {
+    padding-top: 40px;
+    width: 80%;
+    display: flex
+}
+
+.input .input1 {
+    padding: 0 40px;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.gradien {
+    margin-top: 40px;
+}
+
+.gradient-bar {
+    position: relative;
+    height: 40px;
+}
+
+.gradien-bar-bg {
+    width: 97%; 
+    height:40px;
+    background: rgb(233, 10, 10);
+    background-image: linear-gradient(to right, #FF0000, #00FF00) ;
+    border-radius: 6px;
+    /* position: relative; */
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.react-draggable {
+    position: absolute;
+    z-index: 10;
+}
+
+.namess {
+    padding: 20px 50px;
+    margin: 20px;
+    display: inline-block;
+    background: red;
+}
+
+.result {
+    padding: 20px 50px;
+    margin: 20px;
+    display: inline-block;
+    background: red;
+}
+
+button {
+    display: flex;
+    float: right;
+}
+
+.ttt {
+    position: absolute;
+    top: -6px;
+    z-index: 10;
+    display: flex;
+}
+
+.tt {
+    /* position: absolute; */
+    width: 10px;
+    height: 55px;
+    background: red;
+    border-radius: 3px;
+    border: 2px solid #333;
+    margin-bottom: -50px;
+}
+
+.tt:hover {
+    background: green;
+}
+
+.input-1 {
+    margin-left: -20px;
+    size: 12px;
+    margin-top: 60px;
+    width: 33px;
+    height: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    overflow: hidden;
+    text-align: center;
+    transform: translateX(0px) translateY(0px);
+}
+
+
+
+.buttonChangeColor {
+    display: inline-block;
+    flex-direction: column;
+}
+
+
+.buttonChangeColor .buld1{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 1;
+    background: rgb(233, 10, 10);
+    background-image: linear-gradient(to right, #FF0000, #00FF00,blue);
+}
+
+.buttonChangeColor .buld2{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 1;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, red,green,blue);
+}
+
+.buttonChangeColor .buld3{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 1;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, red, green, blue);
+}
